@@ -4,7 +4,7 @@ Notebook is a Free and Open Source Note Taking Web App.
 
 It is easy to set up and easy to use.
 
-### Features
+## Features
 
 <ul>
   <li>Responsive Design.</li>
@@ -14,23 +14,28 @@ It is easy to set up and easy to use.
   <li>Real Time Note Updation and Response using AJAX.</li>
 </ul>
 
-### Previews
+## Previews
 
 <img src="https://i.imgur.com/Y8GNozz.png" style="max-width: 100%; max-height: 70%;">
 <br><br>
+
 <img src="https://i.imgur.com/eIpGR1J.png" style="max-width: 100%; max-height: 70%;">
 <br><br>
+
 <img src="https://i.imgur.com/oNUHyYi.png" style="max-width: 100%; max-height: 70%;">
 <br><br>
+
 <img src="https://i.imgur.com/G1vcUga.png" style="max-width: 100%; max-height: 70%;">
 <br><br>
+
 <img src="https://i.imgur.com/G1vcUga.png" style="max-width: 100%; max-height: 70%;">
 <br><br>
+
 <img src="https://i.imgur.com/v7x2GIG.png" style="max-width: 100%; max-height: 70%;">
 
 For all the previews go to <a href='https://imgur.com/a/8AQP18D' target='_blank'>this link.</a>
 
-### Installation
+## Installation
 
 To install the script, load the script onto your server, and proceed to the installed directory in your browser. If this is the first time the script is run, the installation page automatically opens up.
 
@@ -44,7 +49,7 @@ Error Reporting is set to <b>Off</b> By Default, in order to turn it on; first i
 error_reporting(0);
 ```
 
-### License and Supported
+## License and Supported
 
 The Project is under the <a href='https://github.com/deve-sh/Notebook/blob/master/LICENSE' target="_blank">MIT License</a>.
 
