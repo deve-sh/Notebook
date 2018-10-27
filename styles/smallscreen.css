@@ -1,0 +1,32 @@
+.introducetext{
+	font-size: 40px;
+}
+
+#mongo{
+	background: #ffffff;
+	width: 100%;
+	box-shadow: none;
+}
+
+#homepagecont #installer{
+	padding-left: 5vh;
+	padding-right: 5vh;
+	background: #ffffff;
+}
+
+.note{
+	width: 45%;
+	margin-top: 10px;
+}
+
+#notepad{
+	width: 70%;
+}
+
+.essonthesearcher{
+	width: 60%;
+}
+
+.searchbar{
+	width: 75%;
+}

@@ -1,0 +1,89 @@
+#installcontainer{
+	height: auto;
+	padding: 30px;
+}
+
+#installcontainer #left{
+    width: 100%;
+    float: none;
+    clear: both;
+}
+
+.introducetext{
+	font-size: 35px;
+	border-bottom: 2px solid #ffffff;
+}
+
+#installer{
+	padding: 5vh;
+	background: #ffffff;
+	float: none;
+	width: 90%;
+	clear: both;
+	height: auto;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1)
+	display: block;
+}
+
+#homepagecont #installer{
+	padding: 5vh;
+	background: #ffffff;
+	height: auto;
+}
+
+#mongo{
+	background: #ffffff;
+	box-shadow: none;
+}
+
+input[type='file']
+{
+	width: 100%;
+}
+
+.note{
+	padding: 15px;
+	width: 100%;
+	float: none;
+	clear: both;
+	margin-left: 0px;
+}
+
+#notepad{
+	width: 100%;
+	max-width: 100vw;
+}
+
+.notetitle{
+	padding-top: 10px;
+}
+
+#menu .right
+{
+	width: 80%;
+	padding: 20px;
+}
+
+#menu .left{
+	width: 20%;
+}
+
+#menu .right a{
+	margin-left: 1%;
+}
+
+.essonthesearcher{
+	display: none;
+}
+
+#menu .right .searchicon{
+	display: inline-block;
+}
+
+.divider{
+	width: 50%;
+}
+
+.searchbar{
+	width: 65%;
+}

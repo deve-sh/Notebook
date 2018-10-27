@@ -1,0 +1,374 @@
+*{
+	box-sizing: border-box;
+	transition: 0.3s;
+}
+
+body{
+	padding: 0px;
+	overflow-x: hidden;
+	margin: 0px;
+	width: 100%;
+	max-width: 100vw;
+	font-family: Roboto,Montserrat,sans-serif;
+}
+
+#installcontainer{
+	min-height: 100vh;
+	overflow: hidden;
+	background: #efefef url('files/background.jpeg');
+	background-position: bottom;
+	background-size: cover;
+	background-repeat: none; 
+	font-size: 18px;
+	margin: 0px;
+	width: 100%;
+	max-width: 100vw;
+}
+
+#homepagecont #installer{
+	padding: 20vh;
+	background: #efefef;
+}
+
+button{
+	font-family: Montserrat,Roboto,sans-serif;
+}
+
+.smalltext{
+	font-size: 14px;
+}
+
+#installcontainer #left{
+	width: 50%;
+	top: 50%;
+	height: 100vh;
+	padding-top: 39vh;
+	text-align: center;
+	float: left;
+}
+
+.introducetext
+{
+	color: #ffffff;
+	font-size: 60px;
+	font-family: Montserrat,Roboto,sans-serif;
+}
+
+#mongo
+{
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+    padding: 20px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+}
+
+.addbutton{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+	display: inline-block;
+	padding: 8px;
+	cursor: pointer;
+	font-size: 16px;
+	background: #343434;
+	color: #ffffff;
+	border-radius: 3px;
+}
+
+#installer{
+	width: 50%;
+	float: right;
+	min-height: 100vh;
+	padding: 20px;
+	background: #ffffff;
+	text-align: center;
+}
+
+#installer input{
+	border: 1px solid #cfcfcf;
+	background: #ffffff;
+	font-family: Roboto,sans-serif;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#mongo a{
+    color : #408af3;
+    text-decoration: none;
+}
+
+.successfulinstall{
+	display: inline-block;
+	background : transparent;
+	color : #000000;
+	outline: none;
+	padding: 10px;
+	border: 1px solid #000000;
+	transition: 0.1s;
+}
+
+.successfulinstall:hover{
+	background: #000000;
+	color: #ffffff;
+}
+
+#notes{
+	padding: 20px;
+	background: #efefef;
+	margin: 0px;
+	height: auto;
+	width: 100%;
+	min-height: 100vh;
+	overflow: auto;
+	max-width: 100vw;
+}
+
+#notepad{
+	background: #ffffff;
+	padding: 0px;
+	width: 50%;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+}
+
+.note{
+	float: left;
+	width: 29%;
+	margin-top : 10px;
+	background: #ffffff;
+	height: auto;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+	display: inline-block;
+	margin-left: 3%;
+}
+
+.notetitle{
+	padding: 15px 10px 20px 20px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.actnote{
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+}
+
+.onlytitle{
+	font-size: 25px;
+}
+
+.noteoptions{
+	height: auto;
+	display: block;
+	padding: 5px;
+	text-align: right;
+}
+
+.delete{
+	padding: 10px;
+	color: #545454;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.delete:hover{
+	background: #efefef;
+}
+
+.material-icons.md-18 { font-size: 20px; }
+.material-icons.md-72 { font-size: 72px; }
+
+.nonotes{
+	padding: 30px;
+	border-radius : 50%;
+	display: inline-block;
+	color: #434343;
+	background: #cfcfcf;
+}
+
+#newtitle{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#newcontent{
+	width: 100%;
+	padding: 10px;
+	height: auto;
+	text-align: left;
+	font-weight: normal;
+}
+
+/* TO ADD PLACEHOLDERS TO EMPTY DIVS */
+
+div:empty:before {
+  content:attr(data-text);
+  color:gray;
+}
+
+.noteleft{
+	width: 80%;
+	float: left;
+	height: auto;
+	padding: 10px;
+	color: #545454;
+	text-align: left;
+	font-size: 14px;
+}
+
+div{
+	outline: none;
+}
+
+.divider{
+	width: 40%;
+	height: 1px;
+	background: #cfcfcf;
+}
+
+#menu{
+	display: block;
+	max-width: 100%;
+	left:0;
+	right: 0;
+	position: fixed;
+	background: #ffffff;
+	border-bottom: 1px solid #dadce0;
+	padding: 0px;
+	color: black;
+}
+
+.essonthesearcher{
+	background: #f5f5f5;
+	border-radius: 3px;
+	color: #343434;
+	width: 50%;
+	border: none;
+	padding: 0px;
+	text-align: left;
+	outline: none;
+	padding: 10px;
+	display: inline-block;
+}
+
+.searchbar{
+	background: #f5f5f5;
+	border-radius: 3px;
+	color: #343434;
+	width: 50%;
+	border: none;
+	padding: 20px;
+	text-align: left;
+	outline: none;
+	padding: 10px;
+	display: inline-block;
+}
+
+span:empty:before {
+  content:attr(data-text);
+  color:gray;
+}
+
+.menuheading{
+	color: gray;
+	font-family: Montserrat,Roboto,sans-serif;
+	font-size: 18px;
+}
+
+.menuheading:hover{
+	color: #000000;
+}
+
+#menu i{
+	color: gray;
+}
+
+#menu a{
+	color: gray;
+	text-decoration: none;
+}
+
+#menu .left{
+	width:20%;
+	padding: 20px;
+	float: left;
+}
+
+#menu .right{
+	width: 80%;
+	padding: 10px;
+	float: right;
+	padding-right: 20px;
+	text-align: right;
+}
+
+#menu .right a{
+	margin-left: 2%;
+}
+
+#menu .right .searchicon{
+	display: none;
+}
+
+#notemain{
+	margin: 0px;
+	width: 100%;
+	max-width: 100vw;
+	padding: 0px;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #ffffff; /* Black*/
+    border-left: 1px solid #cfcfcf;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #000000;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#userphoto{
+	border-radius: 50%;
+	/* Square */
+	max-height: 200px;
+	max-width: 200px;
+}
