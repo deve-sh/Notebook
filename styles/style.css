@@ -15,7 +15,7 @@ body{
 #installcontainer{
 	min-height: 100vh;
 	overflow: hidden;
-	background: #efefef url('files/background.jpeg');
+	background: #efefef url('../files/background.jpeg');
 	background-position: bottom;
 	background-size: cover;
 	background-repeat: none; 
