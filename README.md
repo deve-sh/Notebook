@@ -49,7 +49,7 @@ Error Reporting is set to <b>Off</b> By Default, in order to turn it on; first i
 error_reporting(0);
 ```
 
-## License and Supported
+## License and Support
 
 The Project is under the <a href='https://github.com/deve-sh/Notebook/blob/master/LICENSE' target="_blank">MIT License</a>.
 
