@@ -39,7 +39,7 @@ For all the previews go to <a href='https://imgur.com/a/8AQP18D' target='_blank'
 
 To install the script, load the script onto your server, and proceed to the installed directory in your browser. If this is the first time the script is run, the installation page automatically opens up.
 
-  In the form, fill in all the required details of the database and the script shall install itself given no error occur in the system.
+  In the form, fill in all the required details of the database and the script shall install itself given that no error occurs in the system.
   
 #### Turning Error Reporting On (Advanced)
 
