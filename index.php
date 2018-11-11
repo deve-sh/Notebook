@@ -26,7 +26,7 @@
                   <br>
                   <h2>Login</h2>
                   <br>
-                  <input type="text" name="email" placeholder="Email Address" required/>
+                  <input type="email" name="email" placeholder="Email Address" required/>
                   <br><br>
                   <input type="password" name="password" placeholder="Password" required/>
                   <br><br>

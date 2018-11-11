@@ -21,7 +21,7 @@ include 'inc/salt.php';
 		<h3>Register</h3>
 		<input type="text" placeholder="Name" name="name" required/>
 		<br/><br/>
-		<input type="text" onkeyup="check(this.value)" id='email' onkeydown="check(this.value)" placeholder="Email" name="username" required/>
+		<input type="email" onkeyup="check(this.value)" id='email' onkeydown="check(this.value)" placeholder="Email" name="username" required/>
 		<br><br>
 		<input type="password" name="password" placeholder="Password" required/>
 		<br><br>
