@@ -77,6 +77,7 @@
 				if (file_exists($target_file)) {
 				    $target_file=crypt($target_file,$salt);
 				    $target_file=md5($target_file);
+				    $target_file="files/".$target_file.".".$extension;
 				    // Recycle hashing.
 				}
 				// Check file size
